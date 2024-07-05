@@ -8,12 +8,12 @@ const fromEuroToDollar = function(valueInEuro) {
 
 function fromDollarToYen (dollar){
     const euro = dollar / 1.07;
-    return euro * 156.5;
+    return parseFloat((euro * 156.5).toFixed(2));
 }
 
 const fromYenToPound = (yen) => {
     const euro = yen / 156.5;
-    return euro * 0.87;
+    return parseFloat((euro * 0.87).toFixed(5));
 }
 const sum = (a,b) => {
     return a + b;

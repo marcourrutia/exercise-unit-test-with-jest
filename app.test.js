@@ -31,5 +31,5 @@ test("Parametro es un String", function() {
 
 test("Un Yen debe ser 0.00333 pound", function() {
     const yen = fromYenToPound(6);
-    expect(yen).toBe(0.00333)        
+    expect(yen).toBe(0.03335)        
 })
